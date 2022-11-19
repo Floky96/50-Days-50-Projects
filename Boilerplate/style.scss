@@ -1,16 +1,14 @@
-body {
-    margin: 0;
-    overflow: hidden;
+* {
+    box-sizing: border-box;
 }
 
-.main-container {
-    height: 100vh;
-    width: 100vw;
-    background-color: lightgrey;
+body {
+    background-color: #f6f7fb;;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
     overflow: hidden;
     margin: 0;
 }
