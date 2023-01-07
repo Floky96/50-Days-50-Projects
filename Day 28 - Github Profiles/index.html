@@ -8,13 +8,19 @@
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <script src="js/script.js" defer></script>
     <script src="https://kit.fontawesome.com/09ca86ed6f.js" crossorigin="anonymous"></script>
-    <title>Toast Notification</title>
+    <title>Github Profiles</title>
 </head>
 
 <body>
-    <div id="toasts"></div>
+    <form class="user-form" id="form">
+        <input type="text" id="search" placeholder="Search a Github User">
+    </form>
 
-    <button class="btn" id="button">Show Notification</button>
+    <main id="main"></main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"
+        integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ=="
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
